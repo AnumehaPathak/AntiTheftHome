@@ -14,9 +14,9 @@ Including another URLconf
     2. Add a URL to urlpatterns:  url(r'^blog/', include('blog.urls'))
 """
 from django.conf.urls import url
+from django.conf.urls.static import static
 from django.contrib import admin
 from facebook.views import *
-from django.conf.urls.static import static
 from django.conf import settings
 
 urlpatterns = [
